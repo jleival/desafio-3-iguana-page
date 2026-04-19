@@ -90,7 +90,7 @@ desafio-3-iguana-page/
 1. Clona este repositorio:
 
 ```bash
-git clone https://github.com/jaleival/desafio-3-iguana-page.git
+git clone https://github.com/jleival/desafio-3-iguana-page.git
 ```
 
 2. Ingresa al proyecto:
