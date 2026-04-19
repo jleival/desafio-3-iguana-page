@@ -9,7 +9,7 @@ El objetivo principal fue replicar un diseño propuesto, aplicando técnicas de 
 ## 🚀 Demo del Proyecto
 
 🔗 **GitHub Pages:**
-*Agrega aquí tu enlace cuando publiques el proyecto*
+*https://jleival.github.io/desafio-3-iguana-page/*
 
 ```txt
 https://jleival.github.io/desafio-3-iguana-page/
