@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+body {
+    font-family: "Raleway", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+}
+
+/* CONFIGURACIÓN DEL HEADER EN CSS */
+header {
+    background-color: #000000;
+}
+
+header h1 {
+    color: #ffffff;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+}
+
+/* CONFIGURACIÓN DE LA IMAGEN BAJO EL HEADER*/
+.hero {
+    height: 100vh;
+    background-image: linear-gradient(to bottom, #000000 0%, #00000000 40%),
+        url(../imgs/bg-header.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* CONFIGURACIÓN DEL CONTENIDO E IMAGEN EN CSS */
+.contenido {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+    padding: 80px 120px;
+    box-sizing: border-box;
+}
+
+/* TEXTO */
+.texto {
+    display: table-cell;
+    width: 50%;
+    color: #fff;
+    vertical-align: middle;
+    padding-right: 120px;
+}
+
+.texto p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+/* IMAGEN */
+.imagen {
+    display: table-cell;
+    width: 50%;
+    vertical-align: middle;
+}
+
+.imagen img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 2%;
+}
+
+/* CONFIGURACIÓN DE ICONOS EN CSS */
+.contenedor {
+    background-color: #1E1A13;
+    color: #ffffff;
+    padding-top: 20px;
+    padding-right: 30px;
+    padding-bottom: 25px;
+}
+
+.contenedor h2 {
+    text-align: center;
+    padding-right: 80px;
+}
+
+.flex {
+    display: flex;
+    gap: 80px;
+    justify-content: space-around;
+}
+
+.seccion-imagenes {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.imagenes img {
+    width: 400px;
+    height: 300px;
+    border-radius: 2%;
+}
+
+/* FOOTER */
+footer {
+    background-color: #1E1A13;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #cccccc;
+}
